@@ -37,7 +37,7 @@ body
   }
 
 
-:hover, :active {
+:hover {
     color: #ff4000;
     font-family: "Gothic Century", serif;
   }
