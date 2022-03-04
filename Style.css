@@ -31,6 +31,13 @@ body
     text-decoration-color: rgb(255, 0, 0);
 }
 
-.hypertext {
-    color:rgb(0, 187, 16);
-}
+a:link, a:visited {
+    color: #00BB10;
+    font-family: "Gothic Century", serif;
+  }
+
+
+  a:hover, a:active {
+    color: #ff4000;
+    font-family: "Gothic Century", serif;
+  }
