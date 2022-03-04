@@ -31,13 +31,13 @@ body
     text-decoration-color: rgb(255, 0, 0);
 }
 
-:link, a:visited {
+:link, :visited {
     color: #00BB10;
     font-family: "Gothic Century", serif;
   }
 
 
-  :hover, a:active {
+:hover, :active {
     color: #ff4000;
     font-family: "Gothic Century", serif;
   }
