@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Gothic Century";
+    src: url("CenturyGothic.ttf")
+  }
+
+body
+{
+    background-color: black;
+    background-image: url(https://images7.alphacoders.com/737/thumb-1920-737400.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    font-family: "Gothic Century", serif;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+    }
+    ::-webkit-scrollbar-track-piece  {
+    background-color:rgb(13, 17, 52) ;
+    }
+    ::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color: rgb(20, 50, 105);
+    }
+
+.souligner {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 0, 0);
+}
+
+.hypertext {
+    color:rgb(0, 187, 16);
+}
