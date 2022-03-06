@@ -15,18 +15,17 @@ body
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
-    height: 15px;
+    width: 0.8em;
+    height: 0.8em;
     }
     ::-webkit-scrollbar-track-piece  {
     background-color:rgb(13, 17, 52) ;
     }
     ::-webkit-scrollbar-thumb:vertical {
-    height: 30px;
     background-color: rgb(20, 50, 105);
     }
 
-.souligner {
+h2 {
     text-decoration: underline;
     text-decoration-color: rgb(255, 0, 0);
 }
@@ -40,4 +39,17 @@ body
 :hover {
     color: #ff4000;
     font-family: "Gothic Century", serif;
+  }
+
+  h1, h2 {
+    color: red;
+    text-align: center;
+  }
+
+  .eccept {
+    text-align: left;
+  }
+
+  .ombre {
+    text-shadow: 0.15em 0.15em 0.2em black;
   }
